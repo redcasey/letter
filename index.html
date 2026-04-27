@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Letter</title>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #0e0e0e;
+    color: #c8c0b4;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 1.95;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 80px 24px;
+  }
+  .page {
+    max-width: 640px;
+    width: 100%;
+    opacity: 0;
+    animation: appear 2s ease forwards;
+    animation-delay: 0.3s;
+  }
+  @keyframes appear {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .divider {
+    border: none;
+    border-top: 1px solid #2a2a2a;
+    margin: 52px 0;
+  }
+  p {
+    margin-bottom: 1.6em;
+    color: #b8b0a4;
+    letter-spacing: 0.01em;
+  }
+  p:last-child { margin-bottom: 0; }
+  .opening {
+    font-family: 'IM Fell English', serif;
+    font-size: 13px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #555;
+    margin-bottom: 52px;
+    display: block;
+  }
+  .closing {
+    font-family: 'IM Fell English', serif;
+    font-style: italic;
+    color: #555;
+    font-size: 24px;
+    margin-top: 60px;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <span class="opening">My Dear Marcelina,</span>
+
+  <p>I’m writing this because I prefer things to be stated clearly rather than left in this vague silence.</p>
+
+  <p>It hasn’t gone unnoticed that you’ve distanced yourself. I’m not asking for an explanation and I’m definitely not asking you to change your mind. It’s very clear that you’ve distanced yourself. I’m not here to ask why or to beg for a return to how things were. I am just acknowledging that you did exactly what you said you would never do. You made very specific promises about being there and not leaving when things got difficult, and then you left at the first real sign of it getting difficult. That is a fact.</p>
+
+  <hr class="divider">
+
+  <p>To be direct, I had actually started to consider a future that included you. For a long time, I didn't care if I had a future at all, so that was a significant shift for me. Losing that hasn't made me angry as much as it has just left me completely exhausted. Since you’ve been gone, I have fallen back into all the old habits and patterns you helped me move away from. My mental state has regressed to where it was before I knew you, and honestly, if we were to have a conversation right now, you wouldn't recognize me. You’d probably find me intolerable.</p>
+
+  <p>The night I realized you weren't coming back, I spent hours crying until I eventually just felt numb. It wasn't a poetic moment. It was just the realization that everything you said about wanting to take my pain or being proud of me was just talk. It wasn't real. Or if it was real at the time, it wasn't strong enough to last.</p>
+
+  <hr class="divider">
+
+  <p>My memory is becoming pretty unreliable lately—probably due to the burnout and the stress—but I still remember the sensation of thinking I was actually cared for. Even if that turned out to be a mistake on my part, the memory of that feeling remains, which only makes the current situation feel more hollow.</p>
+
+  <p>I don’t forgive you for this. Leaving someone in the state you knew I was in, after promising you wouldn't, is a specific kind of betrayal that I don't have the capacity to overlook. I’m not saying this to make you feel guilty or to get a reaction out of you. I genuinely don't have the energy for a conflict. I’m just tired. I’m tired of the noise, tired of the empty reassurance, and tired of people who offer warmth just to take it away when the temperature drops.</p>
+
+  <hr class="divider">
+
+  <p>I’m going back to being alone now. It’s a state I’m much more familiar with anyway. There’s no hope growing here, and I’m done looking for it.</p>
+
+  <p class="closing">I don't think we have anything left to say.</p>
+</div>
+</body>
+</html>
